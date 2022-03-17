@@ -1,12 +1,16 @@
 ﻿using System;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace tpModul4_1302202072 // Note: actual namespace depends on the project name.
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            HaloGeneric halo = new HaloGeneric();
+            halo.SapaUser<String>("razqy");
+            
+          
         }
     }
 }
