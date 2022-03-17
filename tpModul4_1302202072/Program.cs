@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace tpModul4_1302202072 
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DataGeneric<String> NIM = new DataGeneric<string>("1302202072");
+            NIM.printData();
+            
         }
     }
 }
